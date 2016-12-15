@@ -231,6 +231,18 @@ accuracy
 ~~~~~~~~
 .. autofunction:: accuracy
 
+binary_accuracy
+~~~~~~~~~~~~~~~
+.. autofunction:: binary_accuracy
+
+classification_summary
+~~~~~~~~~~~~~~~~~~~~~~
+.. autofunction:: classification_summary
+
+r2_score
+~~~~~~~~
+.. autofunction:: r2_score
+
 
 Loss functions
 --------------
@@ -275,6 +287,10 @@ hinge
 huber_loss
 ~~~~~~~~~~
 .. autofunction:: huber_loss
+
+mean_absolute_error
+~~~~~~~~~~~~~~~~~~~
+.. autofunction:: mean_absolute_error
 
 mean_squared_error
 ~~~~~~~~~~~~~~~~~~
@@ -497,6 +513,10 @@ average_pooling_2d
 max_pooling_2d
 ~~~~~~~~~~~~~~
 .. autofunction:: max_pooling_2d
+
+max_pooling_nd
+~~~~~~~~~~~~~~
+.. autofunction:: max_pooling_nd
 
 roi_pooling_2d
 ~~~~~~~~~~~~~~
