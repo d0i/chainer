@@ -80,7 +80,7 @@ class ImageDataset(dataset_mixin.DatasetMixin):
 
         if image.ndim == 2:
             # image is greyscale
-            image = image[:, :, numpy.newaxis]
+            image = image[..., None]
         return image.transpose(2, 0, 1)
 
 
